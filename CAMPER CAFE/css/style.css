@@ -1,0 +1,85 @@
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family:sans-serif;
+    padding: 20px;
+  }
+  
+  h1, h2, p {
+    text-align: center;
+  }
+  
+  .menu {
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width:500px; /*The current width of the menu will always take up 80% of the body element's width. On a very wide screen, the coffee and dessert appear far apart from their prices.
+
+    Add a max-width property to the menu class with a value of 500px to prevent it from growing too wide.*/
+  }
+  .flavor, .dessert{
+    text-align:left;
+    width:75%
+  }
+  .price{
+    text-align:right;
+    width:25%
+  }
+  .item p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  h1, h2{
+    font-family: "Impact", serif; /*You can add a fallback value for the font-family by adding another font name separated by a comma. Fallbacks are used in instances where the initial is not found/available.
+
+    Add the fallback font serif after the Impact font.*/
+  }
+  .established{
+    font-style: italic;
+  }
+  h1{
+    font-size:40px;
+    margin-top: 0px;
+    margin-bottom:15px;
+  }
+  h2{
+    font-size:30px;
+  }
+  hr{
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+  }
+  .bottom-line{
+    margin-top:25px;
+  }
+  /*FOOTER*/
+  footer{
+    font-size: 14px;
+  }
+  a{
+    color:black;
+  }
+  a:visited {
+    color: black;
+  }
+  
+  a:hover {
+    color: brown;
+  }
+  
+  a:active {
+    color: brown;
+  }
+  .address{
+    margin-bottom: 5px;
+  }
+  img{
+    margin-top:-25px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+  }
